@@ -4,7 +4,7 @@
 > Given a short interview video, decide: does this person show **ambivalence or
 > hesitancy**? Six models, one honest ensemble, one command.
 
-**Public test: 0.731 macro-F1** — previous edition's winner: 0.694.
+**Public test: 0.731 macro-F1** 
 
 ---
 
@@ -58,7 +58,7 @@ Resume anywhere: `bash run_all.sh --step 8`.
 |---|:---:|:---:|
 | Ensemble, public test (models trained on train split) | **0.731** | 0.875 |
 | Ensemble, internal 113-video holdout (all-data models) | 0.814 | 0.907 |
-| Previous edition winner, public test | 0.694 | — |
+
 
 Verified end-to-end: a from-scratch rerun of `run_all.sh` reproduces the
 ensemble to ±0.0001 F1 (individual members may drift ~a point across
