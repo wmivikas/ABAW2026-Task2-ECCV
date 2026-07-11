@@ -1,0 +1,42 @@
+{
+  "members": {
+    "text": {
+      "checkpoint": "/driveA/phd/vikas/abaw26/task2ah/release/outputs/checkpoints/text_20260711_112027/best_model.pt",
+      "model_type": "text"
+    },
+    "visual": {
+      "checkpoint": "/driveA/phd/vikas/abaw26/task2ah/release/outputs/checkpoints/visual_20260711_112329/best_model.pt",
+      "model_type": "visual"
+    },
+    "audio": {
+      "checkpoint": "/driveA/phd/vikas/abaw26/task2ah/release/outputs/checkpoints/audio_20260711_112945/best_model.pt",
+      "model_type": "audio"
+    },
+    "fusion_v1": {
+      "checkpoint": "/driveA/phd/vikas/abaw26/task2ah/release/outputs/checkpoints/fusion_20260711_113939/best_model.pt",
+      "model_type": "fusion"
+    },
+    "fusion_v2": {
+      "checkpoint": "/driveA/phd/vikas/abaw26/task2ah/release/outputs/checkpoints/fusion_20260711_114037/best_model.pt",
+      "model_type": "fusion"
+    },
+    "affect": {
+      "checkpoint": "/driveA/phd/vikas/abaw26/task2ah/release/outputs/checkpoints/affect_final_seed42.pt",
+      "model_type": "affect"
+    }
+  },
+  "weights": {
+    "text": 0.17069672287739485,
+    "visual": 0.16417737742209693,
+    "audio": 0.15662294404277496,
+    "fusion_v1": 0.16869737582328873,
+    "fusion_v2": 0.17023917116307197,
+    "affect": 0.16956640867137254
+  },
+  "threshold": 0.5,
+  "holdout_ap": 0.9073226842409754,
+  "holdout_macro_f1": 0.8141592920353983,
+  "holdout_n": 113,
+  "seed": 42,
+  "note": "Weights are AP-weighted on a 113-video internal holdout, held out of every member's own --pool-final training. Threshold fixed at 0.5 (not tuned on any split) to avoid the small-val overfitting we observed earlier (val-tuned threshold did not transfer to test)."
+}
