@@ -19,7 +19,7 @@
 ## Overview
 
 <p align="center">
-  <img src="assets/method_overview.png" alt="AMF architecture: three affect-specialised branches (text, visual, audio) feed a reliability-gated fusion module, combined with five other members into an AP-weighted ensemble at a fixed threshold." width="95%">
+  <img src="method_final.png" alt="AMF architecture: three affect-specialised branches (text, visual, audio) feed a reliability-gated fusion module, combined with five other members into an AP-weighted ensemble at a fixed threshold." width="95%">
 </p>
 
 <p align="center"><sub>
