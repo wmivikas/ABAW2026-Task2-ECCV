@@ -28,9 +28,6 @@ predicts A/H. Six members are combined by AP-weighted averaging at a fixed thres
 Features that hurt the model (gaze/brow dynamics, prosody, cue supervision) are excluded.
 </sub></p>
 
-> **Note:** drop the figure PNG used in the paper (`method_overview.png` / your `method_final.png`)
-> into `assets/` at the repo root — this image is not tracked in this checkout.
-
 **Public test: 0.731 macro-F1**.
 
 ---
